@@ -37,17 +37,30 @@
   <body class="line-numbers">
     <header>
       <div class="container">
-        <h1>./ Create a page using html,css,js</h1>
+        <h1>./ Create your own page with your favorite hobbies using HTML, JavaScript and CSS</h1>
       </div>
     </header>
     <div class="container">
       <section>
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Hacking</li>
+            <li>Gaming</li>
+            <li>Sleeping</li>
+        </ul>
         <h3>Time : <span id="time"></span></h3>
       </section>
       <br />
       <section>
         <h1>Code</h1>
-        <pre><code class="language-html">&lt;script&gt;
+        <pre><code class="language-html">&lt;h3&gt;Hobbies&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Hacking&lt;/li&gt;
+    &lt;li&gt;Gaming&lt;/li&gt;
+    &lt;li&gt;Sleeping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Time : &lt;span id=&quot;time&quot;&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;script&gt;
     const time_element = document.getElementById(&#39;time&#39;)
     setInterval(function () {time_element.innerHTML = Date().split(&#39;(&#39;)[0].trim()}, 1000)
 &lt;/script&gt;</code>
