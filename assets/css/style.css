@@ -88,7 +88,6 @@ button:hover{
 
 input{
     margin-left: 40px;
-    padding: 0px 40px 0 0;
     color: #b5e853;
     background: -webkit-linear-gradient(top, rgba(40,40,40,0.3), rgba(35,35,35,0.3) 50%, rgba(10,10,10,0.3) 50%, rgba(0,0,0,0.3));
 }
