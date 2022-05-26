@@ -114,3 +114,7 @@ table {
     padding:10px;
     text-align: center;
   }
+
+.error{
+    color: red;
+}
